@@ -1,0 +1,207 @@
+body{
+    background: url(https://imgur.com/VI5FJjY.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+  color: white;
+  font-family: Puritan, sans-serif;
+}
+
+.nav{
+  background-color: black;
+  padding:0; margin:0;}
+
+h1{
+  font-size: 3em;
+  text-align:center;
+}
+h2{
+  font-size: 2em;
+  text-align: center;
+}
+
+h3{font-size: 1.75em;}
+.navigation li{
+  font-family: didot;
+  font-weight: 700;
+  font-size: 200%;
+  list-style-type: none;
+}
+.navigation{
+  display:flex;
+}
+
+.navigation a{
+  display: block;
+  padding: 1em;
+  color: white;}
+
+  .navigation a:hover{
+    background-color: #3B3939;
+  }
+
+.mySkills{
+  text-align: center;}
+
+ #funnel{
+  width:10%;}
+
+
+#glasses{
+  width: 23%;}
+
+#bulb{
+  width:16%;}
+
+.flexContainer{
+display:flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.flex-cont{
+  border: 2px solid white;
+  background-color: black;
+  width: fit-content;
+  display:flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.flex-cont h2{
+text-transform: uppercase;
+justify-content: flex-start;
+}
+
+.skill1{
+  border: 2px solid white;
+  width:33%;
+  text-align: center;
+  margin: 2%;
+
+  background-color: black;
+}
+
+.skill2{
+  border: 2px solid white;
+  width:33%;
+  text-align: center;
+  margin: 2%;
+  background-color: black;
+}
+
+.skill3{
+  border: 2px solid white;
+  width:33%;
+  text-align: center;
+  margin: 2%;
+  background-color: black;
+}
+
+.tools{
+  text-align: center;
+  margin: 2%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list{
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.tools li{
+list-style-type: none;
+}
+
+
+.workGrid{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-row-gap: 1em;
+
+}
+
+.csPic{
+  border: 1px solid white;
+}
+
+.csPic img{
+  width:100%;
+}
+
+.csDescript{
+  border: 1px solid white;
+padding:2%;
+background-color: black;
+
+font-family: puritan, sans-serif;}
+
+button{
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  border-radius: 7%;
+  margin: auto;
+  width: 16%;
+  text-align: center;
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+  .flexContainer{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .skill1{
+    border: 2px solid white;
+    width:100%;
+    text-align: center;
+    margin: 2%;
+
+    background-color: black;
+  }
+
+  .skill2{
+    border: 2px solid white;
+    width:100%;
+    text-align: center;
+    margin: 2%;
+    background-color: black;
+  }
+
+  .skill3{
+    border: 2px solid white;
+    width:100%;
+    text-align: center;
+    margin: 2%;
+    background-color: black;
+  }
+
+.flex-cont{border: 2px solid white;
+background-color: black;
+width: 100%;
+display:flex;
+margin: auto;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+}
+  .tools{
+    width:100%;
+  }
+  .csPic {
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    width:100%;}
+
+  }
+
+
+}
